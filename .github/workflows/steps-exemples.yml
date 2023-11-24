@@ -1,7 +1,7 @@
 name: marketplace
 
 on:
-  push
+  workflow_dispatch
 jobs:
   marketplace:
     runs-on: ubuntu-latest
